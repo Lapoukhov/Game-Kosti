@@ -2,6 +2,29 @@
 
 This is a console game. Two players play. The game has five rounds. After each round, the player receives points. The winner is the one who has more points.
 
+Each presses the ENTER key one by one. Each time you press a key, a sequence of five digits is generated, each one in the range from 1 to 6. The program evaluates the combination and gives the player points according to the following principle:
+
+-7 points: all the figures are the same;
+
+
+-6 points: four digits are the same;
+
+-5 points: there are 3 identical and 2 identical;
+
+-4 points: there are 3 identical;
+
+-3 points: all figures are the same;
+
+-2 points: there are 2 identical and 2 identical;
+
+-1 point: otherwise;
+
+Points earned by a player are calculated using the formula:
+
+S = number_of_points * arithmetic_not_comparison_circle * 10
+
+Each player is given 5 attempts. The player with the most points will win.
+
 ### Code:
 
 ```
